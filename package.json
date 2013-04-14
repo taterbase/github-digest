@@ -4,7 +4,7 @@
   "description": "An email digester for Github",
   "main": "app.js",
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "./node_modules/.bin/mocha --recursive"
   },
   "repository": {
     "type": "git",
