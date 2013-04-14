@@ -1,4 +1,9 @@
 extends ../../views/layout
 
 block content
-  p lol
+  if user
+    .username= user.username
+    a(href="/logout") logout
+  else
+    a(href="/auth/github") login
+
